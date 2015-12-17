@@ -6,7 +6,6 @@
   <name>DesignPatterns</name>
   <description>This is the practice tutorials for design patterns.</description>
   <build>
-    <sourceDirectory>JavaSource</sourceDirectory>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
