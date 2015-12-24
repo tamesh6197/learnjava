@@ -8,10 +8,10 @@
 	<description>This is the practice tutorials for design patterns.</description>
 	<packaging>pom</packaging>
 	<parent>
-		<groupId>in.pabreja</groupId>
-		<artifactId>learn</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
-	</parent>
+      <groupId>in.pabreja</groupId>
+      <artifactId>tutorial</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+   </parent>
 	<modules>
 		<module>designpatterns</module>
 		<module>hystrixdemo</module>
