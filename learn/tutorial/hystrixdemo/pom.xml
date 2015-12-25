@@ -2,18 +2,26 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>in.pabreja</groupId>
-	<artifactId>tutorial</artifactId>
+	<artifactId>hystrixdemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Tutorials</name>
-	<description>This is the practice tutorials for design patterns.</description>
-	<packaging>pom</packaging>
+	<name>Hystrix Demo</name>
+	<description>This is the practice tutorials for Hystrix.</description>
+	<packaging>jar</packaging>
 	<parent>
       <groupId>in.pabreja</groupId>
       <artifactId>tutorial</artifactId>
       <version>0.0.1-SNAPSHOT</version>
    </parent>
-	<modules>
-		<module>designpatterns</module>
-		<module>hystrixdemo</module>
-	</modules>
+   <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.3</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
