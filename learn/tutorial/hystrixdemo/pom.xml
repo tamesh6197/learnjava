@@ -1,27 +1,31 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>in.pabreja</groupId>
 	<artifactId>hystrixdemo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>Hystrix Demo</name>
 	<description>This is the practice tutorials for Hystrix.</description>
 	<packaging>jar</packaging>
 	<parent>
-      <groupId>in.pabreja</groupId>
-      <artifactId>tutorial</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
-   </parent>
-   <build>
-    <plugins>
-      <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.3</version>
-        <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
+		<groupId>in.pabreja</groupId>
+		<artifactId>tutorial</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<dependencies>
+		<dependency>
+			<groupId>com.netflix.hystrix</groupId>
+			<artifactId>hystrix-core</artifactId>
+		</dependency>
+	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.3</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>

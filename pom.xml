@@ -10,10 +10,12 @@
 	<url>http://maven.apache.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.version>0.0.1-SNAPSHOT</project.version>
 	</properties>
 	<modules>
 		<module>research</module>
 		<module>learn</module>
+		<module>common</module>
 	</modules>
 	<build>
 		<pluginManagement>
@@ -31,33 +33,27 @@
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
-				<groupId>root.project.projects</groupId>
-				<artifactId>logging</artifactId>
-				<version>1.0</version>
-			</dependency>
-			<dependency>
-				<groupId>root.project</groupId>
-				<artifactId>primary-source</artifactId>
-				<version>1.0</version>
-			</dependency>
-			<dependency>
-				<groupId>root.project.servlets</groupId>
-				<artifactId>servlet</artifactId>
-				<version>1.0</version>
-				<type>war</type>
-			</dependency>
-			<dependency>
-				<groupId>root.project</groupId>
-				<artifactId>ejbs</artifactId>
-				<version>1.0</version>
-				<type>ejb</type>
-			</dependency>
-			<dependency>
 				<groupId>org.slf4j</groupId>
 				<artifactId>slf4j-simple</artifactId>
 				<version>1.7.5</version>
 			</dependency>
-
+			<dependency>
+				<groupId>org.apache.logging.log4j</groupId>
+				<artifactId>log4j-api</artifactId>
+				<version>2.5</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.logging.log4j</groupId>
+				<artifactId>log4j-core</artifactId>
+				<version>2.5</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.logging.log4j</groupId>
+				<artifactId>log4j-bom</artifactId>
+				<version>2.5</version>
+				<scope>import</scope>
+				<type>pom</type>
+			</dependency>
 			<dependency>
 				<groupId>junit</groupId>
 				<artifactId>junit</artifactId>
@@ -68,6 +64,11 @@
 				<groupId>com.netflix.hystrix</groupId>
 				<artifactId>hystrix-core</artifactId>
 				<version>1.4.21</version>
+			</dependency>
+			<dependency>
+				<groupId>com.netflix.hystrix</groupId>
+				<artifactId>hystrix-examples</artifactId>
+				<version>1.0.2</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
