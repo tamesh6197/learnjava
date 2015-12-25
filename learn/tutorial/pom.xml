@@ -5,7 +5,7 @@
 	<artifactId>tutorial</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Tutorials</name>
-	<description>This is the practice tutorials for design patterns.</description>
+	<description>This is the practice tutorials.</description>
 	<packaging>pom</packaging>
 	<parent>
 		<groupId>in.pabreja</groupId>
