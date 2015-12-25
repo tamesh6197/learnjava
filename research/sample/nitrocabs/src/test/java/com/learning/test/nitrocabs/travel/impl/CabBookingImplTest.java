@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.sapient.test.nitrocabs.travel.impl;
+package com.learning.test.nitrocabs.travel.impl;
 
 import static org.junit.Assert.*;
 
@@ -11,12 +11,12 @@ import java.util.Date;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.sapient.test.nitrocabs.domain.BookingRequest;
-import com.sapient.test.nitrocabs.domain.BookingResponse;
-import com.sapient.test.nitrocabs.exception.CabBusinessException;
-import com.sapient.test.nitrocabs.travel.CabBooking;
-import com.sapient.test.nitrocabs.travel.impl.CabBookingImpl;
-import com.sapient.test.nitrocabs.util.CabUtility;
+import com.learning.test.nitrocabs.domain.BookingRequest;
+import com.learning.test.nitrocabs.domain.BookingResponse;
+import com.learning.test.nitrocabs.exception.CabBusinessException;
+import com.learning.test.nitrocabs.travel.CabBooking;
+import com.learning.test.nitrocabs.travel.impl.CabBookingImpl;
+import com.learning.test.nitrocabs.util.CabUtility;
 
 /**
  * 
@@ -30,7 +30,7 @@ public class CabBookingImplTest {
 
 	/**
 	 * Test method for
-	 * {@link com.sapient.test.nitrocabs.travel.impl.CabBookingImpl#cabBook(com.sapient.test.nitrocabs.domain.BookingRequest)}
+	 * {@link com.learning.test.nitrocabs.travel.impl.CabBookingImpl#cabBook(com.learning.test.nitrocabs.domain.BookingRequest)}
 	 * .
 	 * 
 	 * @throws CabBusinessException

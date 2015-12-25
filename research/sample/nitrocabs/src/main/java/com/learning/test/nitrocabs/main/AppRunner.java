@@ -1,15 +1,15 @@
-package com.sapient.test.nitrocabs.main;
+package com.learning.test.nitrocabs.main;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.sapient.test.nitrocabs.domain.BookingRequest;
-import com.sapient.test.nitrocabs.domain.BookingResponse;
-import com.sapient.test.nitrocabs.domain.SectorsInfoData;
-import com.sapient.test.nitrocabs.exception.CabBusinessException;
-import com.sapient.test.nitrocabs.log.LogMessage;
-import com.sapient.test.nitrocabs.travel.CabBooking;
-import com.sapient.test.nitrocabs.travel.impl.CabBookingImpl;
+import com.learning.test.nitrocabs.domain.BookingRequest;
+import com.learning.test.nitrocabs.domain.BookingResponse;
+import com.learning.test.nitrocabs.domain.SectorsInfoData;
+import com.learning.test.nitrocabs.exception.CabBusinessException;
+import com.learning.test.nitrocabs.log.LogMessage;
+import com.learning.test.nitrocabs.travel.CabBooking;
+import com.learning.test.nitrocabs.travel.impl.CabBookingImpl;
 
 /**
  * This is the entry point for the Nitro cab service problem.

@@ -1,8 +1,8 @@
-package com.sapient.test.nitrocabs.travel;
+package com.learning.test.nitrocabs.travel;
 
-import com.sapient.test.nitrocabs.domain.BookingRequest;
-import com.sapient.test.nitrocabs.domain.BookingResponse;
-import com.sapient.test.nitrocabs.exception.CabBusinessException;
+import com.learning.test.nitrocabs.domain.BookingRequest;
+import com.learning.test.nitrocabs.domain.BookingResponse;
+import com.learning.test.nitrocabs.exception.CabBusinessException;
 
 /**
  * It would be responsible for having all checks before allocating cab Id to the requests. 

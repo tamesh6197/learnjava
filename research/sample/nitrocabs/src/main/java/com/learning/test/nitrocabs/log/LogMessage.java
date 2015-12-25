@@ -1,4 +1,4 @@
-package com.sapient.test.nitrocabs.log;
+package com.learning.test.nitrocabs.log;
 
 /**
  * This is having the messages used for logging.

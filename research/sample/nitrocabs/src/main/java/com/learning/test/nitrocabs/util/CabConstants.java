@@ -1,4 +1,4 @@
-package com.sapient.test.nitrocabs.util;
+package com.learning.test.nitrocabs.util;
 
 /**
  * Interface would be having all constants .

@@ -1,4 +1,4 @@
-package com.sapient.test.nitrocabs.domain;
+package com.learning.test.nitrocabs.domain;
 
 import java.io.Serializable;
 import java.text.ParseException;
@@ -8,8 +8,8 @@ import java.util.concurrent.ConcurrentHashMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.sapient.test.nitrocabs.exception.CabBusinessException;
-import com.sapient.test.nitrocabs.util.CabUtility;
+import com.learning.test.nitrocabs.exception.CabBusinessException;
+import com.learning.test.nitrocabs.util.CabUtility;
 
 /**
  * This is singleton class having all information. As the data is used for

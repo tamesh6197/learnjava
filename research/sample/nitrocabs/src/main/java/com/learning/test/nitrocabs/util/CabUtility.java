@@ -1,4 +1,4 @@
-package com.sapient.test.nitrocabs.util;
+package com.learning.test.nitrocabs.util;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -9,9 +9,9 @@ import java.util.Locale;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.sapient.test.nitrocabs.domain.BookingRequest;
-import com.sapient.test.nitrocabs.exception.CabBusinessException;
-import com.sapient.test.nitrocabs.log.LogMessage;
+import com.learning.test.nitrocabs.domain.BookingRequest;
+import com.learning.test.nitrocabs.exception.CabBusinessException;
+import com.learning.test.nitrocabs.log.LogMessage;
 
 /**
  * This is the utility class for various utility methods.

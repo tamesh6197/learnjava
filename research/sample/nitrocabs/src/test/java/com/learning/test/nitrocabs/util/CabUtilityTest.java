@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.sapient.test.nitrocabs.util;
+package com.learning.test.nitrocabs.util;
 
 import static org.junit.Assert.*;
 
@@ -12,8 +12,9 @@ import java.util.Date;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.sapient.test.nitrocabs.domain.BookingRequest;
-import com.sapient.test.nitrocabs.exception.CabBusinessException;
+import com.learning.test.nitrocabs.domain.BookingRequest;
+import com.learning.test.nitrocabs.exception.CabBusinessException;
+import com.learning.test.nitrocabs.util.CabUtility;
 
 
 /**
@@ -23,7 +24,7 @@ import com.sapient.test.nitrocabs.exception.CabBusinessException;
 public class CabUtilityTest {
 
 	/**
-	 * Test method for {@link com.sapient.test.nitrocabs.util.CabUtility#cabProfit(int, int, int)}.
+	 * Test method for {@link com.learning.test.nitrocabs.util.CabUtility#cabProfit(int, int, int)}.
 	 */
 	@Test
 	public final void testCabProfit() {
@@ -31,7 +32,7 @@ public class CabUtilityTest {
 	}
 
 	/**
-	 * Test method for {@link com.sapient.test.nitrocabs.util.CabUtility#formatDate(java.lang.String)}.
+	 * Test method for {@link com.learning.test.nitrocabs.util.CabUtility#formatDate(java.lang.String)}.
 	 * @throws ParseException 
 	 */
 	@Test(expected=ParseException.class)
@@ -40,7 +41,7 @@ public class CabUtilityTest {
 	}
 	
 	/**
-	 * Test method for {@link com.sapient.test.nitrocabs.util.CabUtility#formatDate(java.lang.String)}.
+	 * Test method for {@link com.learning.test.nitrocabs.util.CabUtility#formatDate(java.lang.String)}.
 	 * @throws ParseException 
 	 */
 	@Test
@@ -49,7 +50,7 @@ public class CabUtilityTest {
 	}
 
 	/**
-	 * Test method for {@link com.sapient.test.nitrocabs.util.CabUtility#isBookingTimeAllowed(int, int, java.util.Date)}.
+	 * Test method for {@link com.learning.test.nitrocabs.util.CabUtility#isBookingTimeAllowed(int, int, java.util.Date)}.
 	 */
 	@Test
 	public final void testIsBookingTimeAllowed() {
@@ -57,7 +58,7 @@ public class CabUtilityTest {
 	}
 
 	/**
-	 * Test method for {@link com.sapient.test.nitrocabs.util.CabUtility#validateRequest(com.sapient.test.nitrocabs.domain.BookingRequest)}.
+	 * Test method for {@link com.learning.test.nitrocabs.util.CabUtility#validateRequest(com.learning.test.nitrocabs.domain.BookingRequest)}.
 	 * @throws CabBusinessException 
 	 */
 	@Test(expected=CabBusinessException.class)
@@ -66,7 +67,7 @@ public class CabUtilityTest {
 	}
 	
 	/**
-	 * Test method for {@link com.sapient.test.nitrocabs.util.CabUtility#validateRequest(com.sapient.test.nitrocabs.domain.BookingRequest)}.
+	 * Test method for {@link com.learning.test.nitrocabs.util.CabUtility#validateRequest(com.learning.test.nitrocabs.domain.BookingRequest)}.
 	 * @throws CabBusinessException 
 	 */
 	@Test(expected=CabBusinessException.class)
@@ -75,7 +76,7 @@ public class CabUtilityTest {
 	}
 	
 	/**
-	 * Test method for {@link com.sapient.test.nitrocabs.util.CabUtility#validateRequest(com.sapient.test.nitrocabs.domain.BookingRequest)}.
+	 * Test method for {@link com.learning.test.nitrocabs.util.CabUtility#validateRequest(com.learning.test.nitrocabs.domain.BookingRequest)}.
 	 * @throws CabBusinessException 
 	 */
 	@Test(expected=CabBusinessException.class)
@@ -84,7 +85,7 @@ public class CabUtilityTest {
 	}
 	
 	/**
-	 * Test method for {@link com.sapient.test.nitrocabs.util.CabUtility#validateRequest(com.sapient.test.nitrocabs.domain.BookingRequest)}.
+	 * Test method for {@link com.learning.test.nitrocabs.util.CabUtility#validateRequest(com.learning.test.nitrocabs.domain.BookingRequest)}.
 	 * @throws CabBusinessException 
 	 */
 	@Test(expected=CabBusinessException.class)
